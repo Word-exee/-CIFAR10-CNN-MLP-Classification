@@ -71,21 +71,7 @@ Accuracy: Measures overall correctness.
 F1-Score: Harmonic mean of precision and recall.
 Confusion Matrix: Plotted for training, validation, and test sets to visualize prediction distributions.
 Analysis: Compared both models based on metrics and confusion matrices.
-## Results:
 
-### CNN Model:
-
-Achieved higher accuracy and F1-scores.
-Confusion matrices showed better class differentiation.
-Training and validation losses decreased steadily.
-### MLP Model:
-
-Lower accuracy and F1-scores compared to CNN.
-Confusion matrices revealed more misclassifications.
-Learning curves indicated slower convergence.
-Conclusion:
-
-The CNN outperformed the MLP in classifying images from the CIFAR-10 dataset. The CNN's ability to capture spatial hierarchies and patterns made it more effective for image classification. This comparison underscores the importance of choosing appropriate neural network architectures based on the nature of the input data.
 
 ## Prerequisites:
 
